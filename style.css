@@ -1,0 +1,60 @@
+
+
+
+  #inlineblack{
+    display: inline-block;
+  }
+  .color{
+    background-color: blanchedalmond;
+  }
+
+      /* Progress bar appearance */
+  .language-progress {
+    height: 14px;
+    background-color: #e9ecef;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .language-progress .progress-bar {
+    background-image: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    box-shadow: 0 2px 8px rgba(37,117,252,0.18) inset;
+    transition: width 1.2s cubic-bezier(.2,.9,.2,1);
+    border-radius: 999px;
+    height: 100%;
+  }
+
+  /* Percentage text */
+  .lang-percent {
+    min-width: 100px;
+    text-align: right;
+    font-weight: 900;
+    color: #333;
+    font-size: 0.95rem;
+  }
+
+
+
+    
+    :root {
+      --accent: #2563eb;
+      --muted: #6b7280;
+      --bg: #f7f8fb;
+    }
+    body {  
+         background: var(--bg); color: #111827; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    .hero { background: linear-gradient(90deg, rgba(37,99,235,0.06), rgba(99,102,241,0.03)); border-radius: .75rem; padding: 1.25rem; }
+    .avatar { width: 110px; height: 110px; object-fit: cover; border-radius: .5rem; background: #ddd; border: 3px solid #fff; }
+    .role { color: var(--accent); font-weight: 600; }
+    .card-section { border-radius: .6rem; box-shadow: 0 1px 0 rgba(0,0,0,.04); }
+    .no-print { /* elements to hide when printing / saving as PDF */ }
+    @media print {
+      .no-print { display: none !important; }
+      body { background: #fff !important; }
+    }
+    footer small { color: var(--muted); }
+    @media (max-width: 576px) {
+      .avatar { width: 88px; height: 88px; }
+    }
+   .pad{
+    padding-left: -300px;
+   } 
